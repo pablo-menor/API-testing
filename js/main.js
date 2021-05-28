@@ -18,9 +18,9 @@ button.addEventListener('click', () =>{
             username.innerHTML = user.username;
             user_div.appendChild(username);
     
-            const mail = document.createElement('p');
-            mail.innerHTML = user.mail;
-            user_div.appendChild(mail);
+            const email = document.createElement('p');
+            email.innerHTML = user.email;
+            user_div.appendChild(email);
     
             users.appendChild(user_div);
             

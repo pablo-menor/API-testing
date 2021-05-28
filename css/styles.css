@@ -1,0 +1,31 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: cadetblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #175d5f;
+  width: 40%;
+  margin: auto;
+  margin-top: 10%;
+  padding: 20px;
+  border-radius: 15px;
+}
+.container #bringUsers {
+  cursor: pointer;
+  margin: auto;
+  outline: none;
+  border: none;
+  padding: 15px;
+  border-radius: 30px;
+  margin-bottom: 5%;
+}
+.container .users {
+  /**/
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -25,11 +25,30 @@ body{
    }
 
    .users{
-       /**/
-   }
-
-
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap ;
        
+       
+        div{
+            
+            background-color: rgb(213, 216, 216);
+            border-radius: 10px;
+            padding: 5px;  
+            margin: 7px;
+            font-family: monospace;
+            font-size: 16px;
+            
+            p{
+                padding-left: 15px;
+            }
+
+           #id_tag{
+                margin: auto;
+            }
+            
+        }
+    }
 
 }
 

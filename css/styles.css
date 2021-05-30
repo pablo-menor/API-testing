@@ -73,4 +73,10 @@ body {
   background-color: #175d5f;
 }
 
+@media (max-width: 565px) {
+  .container {
+    width: 60%;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

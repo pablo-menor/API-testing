@@ -40,7 +40,7 @@ button.addEventListener('click', () => {
             const id_buttons = document.querySelectorAll('.id_tag'); //list with each users button with id_number
             id_buttons.forEach(id => id.addEventListener('click', () => {
                 let id_number = id.innerHTML;
-                window.location.href = `./user.html?id=${id_number}`;
+                window.location.href = `../user.html?id=${id_number}`;
             }))
 
         })

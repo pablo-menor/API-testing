@@ -1,6 +1,8 @@
 const url = "https://jsonplaceholder.typicode.com/users";
 const button = document.querySelector("#bringUsers");
 const users = document.querySelector(".users");
+let url_single_user = 0;
+
 let num_users = 0;
 let are_users_shown = false;
 button.addEventListener('click', () => {
@@ -35,10 +37,12 @@ button.addEventListener('click', () => {
 
             });
 
-            const id_buttons = document.querySelectorAll('.id_tag'); //list with each users button with d_number
+            const id_buttons = document.querySelectorAll('.id_tag'); //list with each users button with id_number
             id_buttons.forEach(id => id.addEventListener('click', () => {
                 let id_number = id.innerHTML;
-                console.log(`Click sobre: ${id_number}`)
+                window.location.href = `../user.html?id=${id_number}`;
+                //id_user = 
+                //
             }))
 
 
@@ -50,6 +54,3 @@ button.addEventListener('click', () => {
     else location.reload();
  
 })
-
-
-

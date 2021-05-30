@@ -14,7 +14,7 @@ button.addEventListener('click', () => {
             data.forEach(user => {  
                 num_users++;
                 const user_div = document.createElement('div');
-                user_div.setAttribute('class', user.id);
+                user_div.setAttribute('class', 'card');
 
                 const id_button = document.createElement('button');
                 id_button.innerHTML = user.id;
@@ -41,10 +41,7 @@ button.addEventListener('click', () => {
             id_buttons.forEach(id => id.addEventListener('click', () => {
                 let id_number = id.innerHTML;
                 window.location.href = `../user.html?id=${id_number}`;
-                //id_user = 
-                //
             }))
-
 
         })
         are_users_shown = true;

@@ -3,6 +3,29 @@ body{
     padding: 0px;
     background-color: cadetblue;
 }
+
+#disclaimer{
+    text-align: center;
+    margin-top: 100px;
+    font-family: monospace;
+    font-size: 27px;
+    color: rgb(248, 244, 244);
+    margin-bottom: 50px;
+    a{
+        list-style: none;
+        color: rgb(248, 244, 244);
+    }
+    a:visited {
+        color: rgb(248, 244, 244);
+    }
+}
+
+.moreInfo{
+        text-align: center;
+        font-family: monospace;
+        font-size: 18px;
+        color: rgb(248, 244, 244);
+}
 .container{
    display: flex;
    flex-direction: column;
@@ -10,11 +33,11 @@ body{
    background-color: rgb(23, 93, 95);
    width: 40%;
    margin: auto;
-   margin-top: 10%;
+   margin-top: 4%;
    padding: 20px;
    border-radius: 15px;
 
-   #bringUsers{
+   #bringUsers, #return{
         cursor: pointer;
         margin: auto;
         outline: none;
@@ -43,8 +66,16 @@ body{
                 padding-left: 15px;
             }
 
-           #id_tag{
-                margin: auto;
+           .id_tag{
+               cursor: pointer;
+               outline: none;
+               border: 1px solid #333;
+            }
+
+            .id_tag:hover{
+                color: #fff;
+                background-color: rgb(23, 93, 95);
+               
             }
             
         }

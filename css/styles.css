@@ -4,6 +4,29 @@ body {
   background-color: cadetblue;
 }
 
+#disclaimer {
+  text-align: center;
+  margin-top: 100px;
+  font-family: monospace;
+  font-size: 27px;
+  color: #f8f4f4;
+  margin-bottom: 50px;
+}
+#disclaimer a {
+  list-style: none;
+  color: #f8f4f4;
+}
+#disclaimer a:visited {
+  color: #f8f4f4;
+}
+
+.moreInfo {
+  text-align: center;
+  font-family: monospace;
+  font-size: 18px;
+  color: #f8f4f4;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -11,11 +34,11 @@ body {
   background-color: #175d5f;
   width: 40%;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 4%;
   padding: 20px;
   border-radius: 15px;
 }
-.container #bringUsers {
+.container #bringUsers, .container #return {
   cursor: pointer;
   margin: auto;
   outline: none;
@@ -40,8 +63,14 @@ body {
 .container .users div p {
   padding-left: 15px;
 }
-.container .users div #id_tag {
-  margin: auto;
+.container .users div .id_tag {
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #333;
+}
+.container .users div .id_tag:hover {
+  color: #fff;
+  background-color: #175d5f;
 }
 
 /*# sourceMappingURL=styles.css.map */

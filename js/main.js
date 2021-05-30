@@ -41,7 +41,7 @@ button.addEventListener('click', () => {
             id_buttons.forEach(id => id.addEventListener('click', () => {
                 let id_number = id.innerHTML;
                 const urll = new URLSearchParams(window.location.search);
-                window.location.href = `${urll}/user.html?id=${id_number}`;
+                window.location.href = `${urll}/API-testing/user.html?id=${id_number}`;
             }))
 
         })

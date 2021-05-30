@@ -38,5 +38,5 @@ fetch(url_single_user)
     })
 
     document.querySelector('#return').addEventListener('click', function(){
-        window.location.href = '../index.html';
+        window.location.href = 'https://pablo-menor.github.io/API-testing/';
     })

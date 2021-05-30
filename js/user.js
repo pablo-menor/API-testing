@@ -36,3 +36,7 @@ fetch(url_single_user)
 
         users.appendChild(user_div);
     })
+
+    document.querySelector('#return').addEventListener('click', function(){
+        window.location.href = '../index.html';
+    })

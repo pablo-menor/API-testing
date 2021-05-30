@@ -42,6 +42,7 @@ button.addEventListener('click', () => {
                 let id_number = id.innerHTML;
                 const urll = new URLSearchParams(window.location.search);
                 window.location.href = `${urll}/user.html?id=${id_number}`;
+            }))
 
         })
         are_users_shown = true;
